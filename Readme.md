@@ -4,7 +4,7 @@
 
 The corpus needs to be prepared following a specific column structure, as explained in the [TRACER manual. Corpus preparation](https://tracer.gitbook.io/-manual/manual/corpus-preparation).  
 
-`Tracer_Corpus_Preparation_verses.R` automates the preparation for a corpus of theatre[^1] plays (verses are defined with newline character `\n`).
+`Tracer_Corpus_Preparation_verses.R` automates the preparation for a corpus of theatre plays (verses are defined with newline character `\n`). Didascalia, speakers, etc. have been removed (The sample texts are not included in the repository due to licence restrictions).
 
 ```
 	id      texto                          fecha file_list            
@@ -45,5 +45,3 @@ Once you have the results in this format a [network analysis](https://www.etrap.
 1 0100001 cantad aqui que ha gustado mientras toma de vestir fenix hermosa de oir las ca… NULL  CaElPrincipeCons…
 2 0100002 musica cuyo instrumento son los hierros y cadenas que nos aprisionan puede hab… NULL  CaElPrincipeCons…
 ```
-
-[^1]: Didascalias, speakers, etc. have been removed. The sample texts are not included due to licence restrictions.
