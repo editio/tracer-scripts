@@ -4,7 +4,7 @@
 
 ### April 2019 ###
 
-### It imports vers lines. The verses in the corpus are defined with newline character \n ###
+### It imports verse lines. The verses in the corpus are defined with newline character \n ###
 
 library(tidyverse)
 
@@ -32,7 +32,7 @@ one_df = bind_rows(file_list_df, .id = 'obra')
       one_df$texto = iconv(one_df$texto, "", "ASCII//TRANSLIT", sub = "byte") %>%
       gsub("[[:punct:]]|\\d|\"","\\1",.,perl = F)
       
-      # Remove uppercase words (just in case the corpus in not clean from speakers)
+      # Remove uppercase words (just in case the corpus is not clean from speakers)
       one_df$texto = gsub("^\\w[A-ZÁÍÓÚÉÑ].*","\\1",one_df$texto, perl = F)
       
       # Change the text to lowercase 
