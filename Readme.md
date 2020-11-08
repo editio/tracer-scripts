@@ -4,7 +4,7 @@
 
 The corpus needs to be prepared following a specific column structure, as explained in the [TRACER manual. Corpus preparation](https://tracer.gitbook.io/-manual/manual/corpus-preparation). TRACER uses plain text files (.txt). For these scripts you need to put each work in a .txt file within the same folder (see the comments in the scripts for more info).
 
-`Tracer_Corpus_Preparation_verses.R` automates the preparation for a corpus of theatre plays (verses are defined with newline character `\n`). Didascalia, speakers, etc. have been removed (The sample texts are not included in the repository due to licence restrictions).
+`Tracer_Corpus_Preparation_verses.R` automates the preparation for a corpus of theatre plays (verses are defined with newline character `\n`). Didascalia, speakers, etc. have been removed.
 
 ```
 	id      texto                          fecha file_list            
